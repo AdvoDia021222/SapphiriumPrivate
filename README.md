@@ -2,18 +2,18 @@
 ![Sapphirium](https://github.com/3Snake3/Pictures/blob/master/icon3.png)
 Ah the Sapphirium, sounds good right?
 <br>Let us introduce the list of content it includes:
-<br>A hell amount of fraction turrets, 
-<br>Brand new fraction units,
+<br>A hell amount of faction turrets, 
+<br>Brand new faction units,
 <br>And in the end new interesting materials.
 <br>
 <br>In next updates we want to introduce some pretty big expansion to erekir, stay tune.
 
 ## Contentmaker/Helpers List
 Kostolom - Multi-tool man. Discord profile `kostolom#9777`
-<br>Laim - Spriter, map maker, a small helper with a code. Discord profile `LaIm-Ik.json#5237`
+<br>Laim - Spriter, map maker. Discord profile `LaIm-Ik.json#5237`
 <br>Liplum - Java coder. Discord profile `Liplum#2623`
 <br>Ferret Fantasy - Spriter. Discord profile `sundered#8134`
-<br>Dr.Shramberg - A small script helper. Discord profile `ADG021222#7589`
+<br>Ƒρ4nCυz - A small script helper. Discord profile `s4n_fr4ncuz`
 <br>Fox1va - A small helper. Discord profile `Fox1va_#3532`
 <br>Vervalamis - Spriter. Discord profile `Saigo no-nozomi#1206`
 <br>
@@ -23,15 +23,33 @@ Kostolom - Multi-tool man. Discord profile `kostolom#9777`
 [![Badge Discord]][Discord]
 [![Badge Download]][Download]
 
-# Factions
-`Crimson Agate` - The scarlet-black faction that developed the «Bloodrage» software virus. Uses ruby as the main resource.
-<br>`Indigo` - Frosty fraction of blue-white colors. Founds all frost technologies.
-<br>`Military Defense` - A fraction divided into color divisions. Each division implies its own type of weapons. Orange - Fire, Yellow - Electricity, Blue - Water, Purple - Shadow, White - Light, Green - Acidic or Ionic.
-<br>`Golden Thread` - A faction of holy forces consisting of white, gold and black colors.
-<br>`Beam` - Electric power fraction consisting of white and yellow colors. It has put into circulation products called «Charged Resources».
-<br>`Dart` - A fraction that has the power of speed and consists of brown, white and blue colors.
-<br>`Sandbank` - A faction with the power of stone and sand. It consists of black and sandy colors.
-<br>`Emerald Light` - A support faction with healing power. Consists of white and green colors. Uses emerald as the main resource.
+# Main Factions
+`Crimson Agate` - The faction created a software virus called «Bloodrage». Faction technologies use it to effectively crack down on enemy units. Ruby is the main source of their powers.
+<br>
+<br>`Indigo` - The faction that created the most powerful refrigerant at the moment is Ledonite. The faction effectively uses frosty weapons, forcing the enemy forces to freeze in place and be broken into many pieces. 
+<br>
+<br>`Golden Thread` - The holy faction representing peace, harmony, pacification. In their weapons, they use sacred fire, which carries particles of gold dust, which makes enemies heavier, forcing them to move slower, but at the same time they become stronger, as elements of gold are melted into their cases.
+<br>
+<br>`Beam` - A faction developed in electricity that has created and put into circulation resources containing high-energy components to create advanced electrical technologies.
+<br>
+<br>`Dart` - A faction of the standard armament, but with a small feature. Its weapons are equipped with dart-like bullets capable of piercing enemy targets, and can also be high-speed. Higher-level weapons are switching to the use of homing strike missiles.
+<br>
+<br>`Sandbank` - The faction uses an ancient type of structures in the form of siege engines, making ammunition for them from coal, stones and sand. Coal increases the flammability, stone causes severe damage from impact, sand covers the enemies.
+<br>
+<br>`Emerald Light` - A faction acting as a support. It uses the healing properties of the emerald to repair units and buildings.
+
+# Element Factions
+`Fire` - A faction that commands the element of fire. Its flame spreads everywhere, burning everything in its path.
+<br>
+<br>`Water` - This faction is able to control the element of water. Water can take absolutely any form that the faction can use in its weapons.
+<br>
+<br>`Lightning` - The faction has mastered the power to command lightning, reaching the heavens. All those who obstructed, stood in the way, will be punished by heaven.
+<br>
+<br>`Light` - A faction with the powerful power of the bright white light, blinding the enemy's gaze. In its possession is the most expensive stone - a Diamond.
+<br>
+<br>`Shadow` - A faction of dark forces that carries fear, malice, hatred, destruction and chaos... Everything that is swallowed up by darkness will be doomed forever...
+<br>
+<br>`Acid` - The faction that created an extremely dangerous liquid substance similar to acid. This liquid is capable of corroding metal in seconds, gradually splitting it into atoms.
 
 # Number of included content
 `Blocks:` 261
@@ -39,7 +57,7 @@ Kostolom - Multi-tool man. Discord profile `kostolom#9777`
 <br>`Items:` 18
 <br>`Liquids:` 3
 <br>`Units:` 54
-<br>`Status Efщfects:` 23
+<br>`Status Effects:` 23
 <br>`Maps:` 4
 <br>`Weathers:` 3
 
