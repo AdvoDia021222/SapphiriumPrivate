@@ -1,5 +1,5 @@
 name: "sapphirium"
-displayName: "Sapphirium"
+displayName: "Sapphirium Private"
 description:
   '''
   Ah the Sapphirium, sounds good right? 
@@ -21,5 +21,5 @@ author: "Snake"
 minGameVersion: "136"
 version: "16.0"
 main: "adc.AdcMod"
-repo: 3Snake3/Sapphirium
+repo: AdvoDia021222/SapphiriumPrivate
 java: true
