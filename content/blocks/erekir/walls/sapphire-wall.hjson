@@ -1,0 +1,10 @@
+requirements: [
+    sapphire/6
+    tungsten/4
+]
+armor: 14
+buildCostMultiplier: 8
+health: 1020
+insulated: true
+absorbLasers: true
+category: defense

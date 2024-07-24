@@ -1,0 +1,95 @@
+
+requirements: [
+    dense-alloy/50
+    ruby/70
+]
+category: turret
+outlineColor: 1d1d21
+shootType: {
+    type: LightningBulletType
+    damage: 45
+    lightningColor: d94848
+    lightningLength: 27
+    lifetime: 25
+    collidesAir: true
+    collidesGround: false
+    lightningType: {
+        sprite: circle-bullet
+        width: 0
+        height: 0
+        damage: 5
+        speed: 0
+        lifetime: 15
+        collidesTiles: false
+        splashDamage: 10
+        splashDamageRadius: 25
+        backColor: d94848
+        frontColor: d94848
+        hitColor: d94848
+        hitEffect:none
+        despawnEffect:[
+            {
+                type: ParticleEffect
+                particles: 2
+                cone: 9
+                line: true
+                strokeFrom: 0
+                strokeTo: 1.2
+                lenFrom: 2
+                lenTo: 3
+                length: 20
+                colorFrom: d94848
+                colorTo: d9484850
+                lifetime: 40
+            }
+            {
+                startDelay:20
+                type: ParticleEffect
+                particles: 2
+                cone: 9
+                line: true
+                strokeFrom: 0
+                strokeTo: 1.2
+                lenFrom: 2
+                lenTo: 3
+                length: 20
+                colorFrom: d94848
+                colorTo: d9484800
+                lifetime: 40
+            }
+            {
+                startDelay:40
+                type: ParticleEffect
+                particles: 2
+                cone: 9
+                line: true
+                strokeFrom: 0
+                strokeTo: 1.2
+                lenFrom: 2
+                lenTo: 3
+                length: 20
+                colorFrom: d94848
+                colorTo: d9484800
+                lifetime: 40
+            }
+        ]
+        status: passive-bloodrage
+    }
+    status: active-bloodrage
+}
+reload: 35
+shootCone: 60
+rotateSpeed: 8
+consumes: {
+    power: 4.5
+}
+targetGround: false
+range: 160
+heatColor: ff0000
+recoil: 1
+health: 260
+shootSound: spark
+research: {
+    parent: lancer
+}
+envDisabled: 16

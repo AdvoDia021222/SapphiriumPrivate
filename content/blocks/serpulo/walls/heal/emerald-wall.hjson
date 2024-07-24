@@ -1,0 +1,5 @@
+requirements: [
+    emerald/7
+]
+research: titanium-wall-large
+envDisabled: 16

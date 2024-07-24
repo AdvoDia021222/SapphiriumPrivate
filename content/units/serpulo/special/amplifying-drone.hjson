@@ -1,0 +1,15 @@
+lightColor: f2e879
+fallEffect: none
+fallEngineEffect: none
+health: 80
+isEnemy: false
+drawShields: false
+playerControllable: false
+logicControllable: false
+targetable: false
+groundLayer: 50
+physics: false
+hittable: false
+engineSize: 0
+immunities: [unleash, regeneration]
+speed: 0

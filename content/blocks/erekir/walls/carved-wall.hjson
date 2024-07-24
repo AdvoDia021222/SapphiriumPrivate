@@ -1,0 +1,8 @@
+requirements: [
+    carved-alloy/6
+]
+armor: 34
+buildCostMultiplier: 8
+health: 550
+absorbLasers: true
+category: defense

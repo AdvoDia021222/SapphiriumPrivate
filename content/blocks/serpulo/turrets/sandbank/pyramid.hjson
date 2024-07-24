@@ -1,0 +1,678 @@
+reload: 220
+recoil: 4
+rotateSpeed: 3
+shootCone: 80
+inaccuracy: 3
+range: 424
+shootEffect: shootBig
+smokeEffect: shootBigSmoke2
+outlineColor: 242429
+size: 4
+shootSound: artillery
+shoot: {
+    type: ShootSpread
+    shotDelay: 20
+    shots: 3
+}
+maxAmmo: 80
+targetAir: false
+ammoPerShot: 5
+ammoUseEffect: casing3Double
+ammoEjectBack: 4
+shake: 6
+health: 2800
+consumes: {
+    power: 38.3333333
+}
+ammoTypes: {
+    sand: {
+        type: ArtilleryBulletType
+        width: 17
+        height: 17
+        sprite: sapphirium-sand-shard
+        buildingDamageMultiplier: 0.45
+
+        trailColor: d4ad8e
+        lifetime: 141.33
+        hitShake: 5
+
+        splashDamage: 30
+        splashDamageRadius: 40
+
+        status: slow
+        statusDuration: 30
+
+        hitEffect: {
+            type: ExplosionEffect
+            waveColor: ffe3c9
+            smokeColor: a88568
+
+            waveLife: 15
+            waveRad: 60
+
+            smokeSize: 5
+            smokeRad: 73
+            smokes: 4
+
+            sparks: 0
+        }
+
+        despawnEffect: {
+            type: ExplosionEffect
+            waveColor: ffe3c9
+            smokeColor: a88568
+
+            waveLife: 15
+            waveRad: 60
+
+            smokeSize: 5
+            smokeRad: 73
+            smokes: 4
+
+            sparks: 0
+        }
+
+        fragBullets: 4
+        fragRandomSpread: 360
+        fragLifeMin: 0.3
+
+        fragBullet: {
+            type: ArtilleryBulletType
+            width: 12
+            height: 12
+            hitShake: 4
+            sprite: sapphirium-sand-shard
+            buildingDamageMultiplier: 0.45
+
+            trailColor: d4ad8e
+            lifetime: 80
+
+            splashDamage: 30
+            splashDamageRadius: 15
+
+
+            hitEffect: {
+                type: ExplosionEffect
+                waveColor: ffe3c9
+                smokeColor: a88568
+
+                waveLife: 15
+                waveRad: 35
+
+                smokeSize: 5
+                smokeRad: 43
+                smokes: 4
+
+                sparks: 0
+            }
+
+            despawnEffect: {
+                type: ExplosionEffect
+                waveColor: ffe3c9
+                smokeColor: a88568
+
+                waveLife: 15
+                waveRad: 35
+
+                smokeSize: 5
+                smokeRad: 43
+                smokes: 4
+
+                sparks: 0
+            }
+
+            fragBullets: 2
+            fragRandomSpread: 360
+            fragLifeMin: 0.3
+
+            fragBullet: {
+                type: ArtilleryBulletType
+                width: 8
+                height: 8
+                sprite: sapphirium-sand-shard
+
+                trailColor: d4ad8e
+                lifetime: 60
+                hitShake: 2
+
+                splashDamage: 10
+                splashDamageRadius: 10
+                buildingDamageMultiplier: 0.45
+
+
+                hitEffect: {
+                    type: ExplosionEffect
+                    waveColor: ffe3c9
+                    smokeColor: a88568
+
+                    waveLife: 15
+                    waveRad: 10
+
+                    smokeSize: 3
+                    smokeRad: 15
+                    smokes: 3
+
+                    sparks: 0
+                }
+
+                despawnEffect: {
+                    type: ExplosionEffect
+                    waveColor: ffe3c9
+                    smokeColor: a88568
+
+                    waveLife: 15
+                    waveRad: 10
+
+                    smokeSize: 3
+                    smokeRad: 15
+                    smokes: 3
+
+                    sparks: 0
+                }
+            }
+        }
+    }
+
+    silicon: {
+        type: ArtilleryBulletType
+        width: 17
+        height: 17
+        sprite: sapphirium-silicon-shard
+
+        trailColor: 5d5f6e
+        lifetime: 141.33
+        hitShake: 7
+        reloadMultiplier: 0.85
+        ammoMultiplier: 2
+        buildingDamageMultiplier: 0.45
+
+        homingRange: 65
+        homingPower: 0.98
+
+        splashDamage: 45
+        splashDamageRadius: 30
+
+
+        hitEffect: {
+            type: ExplosionEffect
+            waveColor: 797c8f
+            smokeColor: 40414a
+
+            waveLife: 15
+            waveRad: 85
+
+            smokeSize: 5
+            smokeRad: 93
+            smokes: 5
+
+            sparks: 4
+            sparkRad: 93
+            sparkStroke: 2.5
+            sparkLen: 4
+        }
+
+        despawnEffect: {
+            type: ExplosionEffect
+            waveColor: 797c8f
+            smokeColor: 40414a
+
+            waveLife: 15
+            waveRad: 85
+
+            smokeSize: 5
+            smokeRad: 93
+            smokes: 5
+
+            sparks: 4
+            sparkRad: 93
+            sparkStroke: 2.5
+            sparkLen: 4
+        }
+
+        fragBullets: 4
+        fragRandomSpread: 360
+        fragLifeMin: 0.3
+
+        fragBullet: {
+            type: ArtilleryBulletType
+            width: 12
+            height: 12
+            sprite: sapphirium-silicon-shard
+            buildingDamageMultiplier: 0.45
+
+            hitShake: 5
+
+            homingRange: 65
+            homingPower: 0.98
+
+            trailColor: 5d5f6e
+            lifetime: 80
+
+            splashDamage: 45
+            splashDamageRadius: 15
+
+
+            hitEffect: {
+                type: ExplosionEffect
+                waveColor: 797c8f
+                smokeColor: 40414a
+
+                waveLife: 15
+                waveRad: 45
+
+                smokeSize: 5
+                smokeRad: 53
+                smokes: 5
+
+                sparks: 4
+                sparkRad: 53
+                sparkStroke: 2.5
+                sparkLen: 4
+            }
+
+            despawnEffect: {
+                type: ExplosionEffect
+                waveColor: 797c8f
+                smokeColor: 40414a
+
+                waveLife: 15
+                waveRad: 45
+
+                smokeSize: 5
+                smokeRad: 53
+                smokes: 5
+
+                sparks: 4
+                sparkRad: 53
+                sparkStroke: 2.5
+                sparkLen: 4
+            }
+        }
+    }
+
+    creostone: {
+        sprite: circle-bullet
+        reloadMultiplier: 2.5
+        ammoMultiplier: 8
+        width: 15
+        height: 15
+        damage: 40
+        speed: 5
+        lifetime: 82
+        backColor: bd5553
+        frontColor: eb8778
+        buildingDamageMultiplier: 1.2
+        status: super-melting
+        statusDuration: 125
+        splashDamage: 50
+        splashDamageRadius: 50
+        hitEffect: {
+            type: ExplosionEffect
+            sparks: 5
+            smokes: 5
+            waveRad: 45
+            waveLife: 15
+            waveStroke: 4
+            sparkStroke: 4
+            sparkRad: 50
+            sparkLen: 30
+            smokeSize: 5
+            smokeRad: 45
+            waveColor: eb8778
+            smokeColor: bd5553
+        }
+        despawnEffect: {
+            type: ExplosionEffect
+            sparks: 5
+            smokes: 5
+            waveRad: 45
+            waveLife: 15
+            waveStroke: 4
+            sparkStroke: 4
+            sparkRad: 50
+            sparkLen: 30
+            smokeSize: 5
+            smokeRad: 45
+            waveColor: eb8778
+            smokeColor: bd5553
+        }
+        trailChance: 1
+        trailEffect: {
+            type: ParticleEffect
+            length: 0
+            layer: 100
+            particles: 1
+            lifetime: 40
+            sizeFrom: 6
+            sizeTo: 0
+            colorFrom: eb8778
+            colorTo: eb8778
+            region: particle
+        }
+        ammoMultiplier: 8
+        hitSound: explosion
+        fragBullets: 3
+        fragRandomSpread: 20
+        fragAngle: 180
+        fragBullet: {
+            sprite: circle-bullet
+            width: 15
+            height: 15
+            damage: 60
+            speed: 5
+            lifetime: 30
+            backColor: bd5553
+            collides: false
+            collidesTiles: false
+            frontColor: eb8778
+            buildingDamageMultiplier: 1.2
+            status: super-melting
+            statusDuration: 125
+            splashDamage: 50
+            splashDamageRadius: 55
+            hitEffect: {
+                type: ExplosionEffect
+                sparks: 5
+                smokes: 5
+                waveRad: 45
+                waveLife: 15
+                waveStroke: 4
+                sparkStroke: 4
+                sparkRad: 50
+                sparkLen: 30
+                smokeSize: 5
+                smokeRad: 45
+                waveColor: eb8778
+                smokeColor: bd5553
+            }
+            despawnEffect: {
+                type: ExplosionEffect
+                sparks: 5
+                smokes: 5
+                waveRad: 45
+                waveLife: 15
+                waveStroke: 4
+                sparkStroke: 4
+                sparkRad: 50
+                sparkLen: 30
+                smokeSize: 5
+                smokeRad: 45
+                waveColor: eb8778
+                smokeColor: bd5553
+            }
+            trailChance: 1
+            trailEffect: {
+                type: ParticleEffect
+                length: 0
+                layer: 100
+                particles: 1
+                lifetime: 40
+                sizeFrom: 6
+                sizeTo: 0
+                colorFrom: eb8778
+                colorTo: eb8778
+                region: particle
+            }
+            hitSound: explosion
+            fragBullets: 2
+            fragRandomSpread: 20
+            fragAngle: 180
+            fragBullet: {
+                sprite: circle-bullet
+                width: 15
+                height: 15
+                damage: 40
+                speed: 5
+                lifetime: 60
+                backColor: bd5553
+                collides: false
+                collidesTiles: false
+                frontColor: eb8778
+                buildingDamageMultiplier: 1.2
+                status: super-melting
+                statusDuration: 32
+                splashDamage: 40
+                splashDamageRadius: 15
+                hitEffect: {
+                    type: ExplosionEffect
+                    sparks: 5
+                    smokes: 5
+                    waveRad: 45
+                    waveLife: 15
+                    waveStroke: 4
+                    sparkStroke: 4
+                    sparkRad: 50
+                    sparkLen: 30
+                    smokeSize: 5
+                    smokeRad: 45
+                    waveColor: eb8778
+                    smokeColor: bd5553
+                }
+                despawnEffect: {
+                    type: ExplosionEffect
+                    sparks: 5
+                    smokes: 5
+                    waveRad: 45
+                    waveLife: 15
+                    waveStroke: 4
+                    sparkStroke: 4
+                    sparkRad: 50
+                    sparkLen: 30
+                    smokeSize: 5
+                    smokeRad: 45
+                    waveColor: eb8778
+                    smokeColor: bd5553
+                }
+                trailChance: 1
+                trailEffect: {
+                    type: ParticleEffect
+                    length: 0
+                    layer: 100
+                    particles: 1
+                    lifetime: 40
+                    sizeFrom: 6
+                    sizeTo: 0
+                    colorFrom: eb8778
+                    colorTo: eb8778
+                    region: particle
+                }
+                hitSound: explosion
+            }
+            fragBullets: 1
+            fragRandomSpread: 20
+            fragAngle: 180
+            fragBullet: {
+                sprite: circle-bullet
+                width: 15
+                height: 15
+                damage: 40
+                speed: 5
+                lifetime: 60
+                backColor: bd5553
+                collides: false
+                collidesTiles: false
+                frontColor: eb8778
+                buildingDamageMultiplier: 1.2
+                status: super-melting
+                statusDuration: 32
+                splashDamage: 40
+                splashDamageRadius: 15
+                hitEffect: {
+                    type: ExplosionEffect
+                    sparks: 5
+                    smokes: 5
+                    waveRad: 45
+                    waveLife: 15
+                    waveStroke: 4
+                    sparkStroke: 4
+                    sparkRad: 50
+                    sparkLen: 30
+                    smokeSize: 5
+                    smokeRad: 45
+                    waveColor: eb8778
+                    smokeColor: bd5553
+                }
+                despawnEffect: {
+                    type: ExplosionEffect
+                    sparks: 5
+                    smokes: 5
+                    waveRad: 45
+                    waveLife: 15
+                    waveStroke: 4
+                    sparkStroke: 4
+                    sparkRad: 50
+                    sparkLen: 30
+                    smokeSize: 5
+                    smokeRad: 45
+                    waveColor: eb8778
+                    smokeColor: bd5553
+                }
+                trailChance: 1
+                trailEffect: {
+                    type: ParticleEffect
+                    length: 0
+                    layer: 100
+                    particles: 1
+                    lifetime: 40
+                    sizeFrom: 6
+                    sizeTo: 0
+                    colorFrom: eb8778
+                    colorTo: eb8778
+                    region: particle
+                }
+            }
+        }
+    }
+
+    surge-stone: {
+        type: ArtilleryBulletType
+        width: 17
+        height: 17
+        sprite: sapphirium-surge-shard
+
+        trailColor: d99e6a
+        lifetime: 141.33
+        hitShake: 8
+
+        reloadMultiplier: 0.4
+        ammoMultiplier: 6
+        buildingDamageMultiplier: 0.45
+
+        splashDamage: 80
+        splashDamageRadius: 50
+
+        status: sapphirium-overload
+
+        lightning: 3
+        lightningLength: 12
+        lightningDamage: 40
+        lightningColor: f2e879
+
+        hitEffect: {
+            type: ExplosionEffect
+            waveColor: f2e879
+            smokeColor: d99e6a
+
+            waveLife: 15
+            waveRad: 185
+
+            smokeSize: 5
+            smokeRad: 195
+            smokes: 5
+
+            sparks: 6
+            sparkRad: 195
+            sparkStroke: 3
+            sparkLen: 4
+        }
+
+        despawnEffect: {
+            type: ExplosionEffect
+            waveColor: f2e879
+            smokeColor: d99e6a
+
+            waveLife: 15
+            waveRad: 185
+
+            smokeSize: 5
+            smokeRad: 195
+            smokes: 5
+
+            sparks: 6
+            sparkRad: 195
+            sparkStroke: 3
+            sparkLen: 4
+        }
+
+        fragBullets: 6
+        fragRandomSpread: 300
+        fragLifeMin: 0.3
+
+        fragBullet: {
+            type: ArtilleryBulletType
+            width: 12
+            height: 12
+            sprite: sapphirium-surge-shard
+
+            hitShake: 5
+            buildingDamageMultiplier: 0.45
+
+            lightning: 2
+            lightningLength: 12
+            lightningDamage: 40
+            lightningColor: f2e879
+
+            trailColor: d99e6a
+            lifetime: 80
+
+            splashDamage: 40
+            splashDamageRadius: 40
+
+
+            hitEffect: {
+                type: ExplosionEffect
+                waveColor: f2e879
+                smokeColor: d99e6a
+
+                waveLife: 15
+                waveRad: 80
+
+                smokeSize: 5
+                smokeRad: 95
+                smokes: 5
+
+                sparks: 6
+                sparkRad: 95
+                sparkStroke: 3
+                sparkLen: 4
+            }
+
+            despawnEffect: {
+                type: ExplosionEffect
+                waveColor: f2e879
+                smokeColor: d99e6a
+
+                waveLife: 15
+                waveRad: 80
+
+                smokeSize: 5
+                smokeRad: 95
+                smokes: 5
+
+                sparks: 6
+                sparkRad: 95
+                sparkStroke: 3
+                sparkLen: 4
+            }
+        }
+    }
+}
+category: turret
+research: dune
+requirements: [
+    dense-alloy/1000
+    stone/440
+    thorium/400
+    plastanium/325
+    surge-alloy/120
+]

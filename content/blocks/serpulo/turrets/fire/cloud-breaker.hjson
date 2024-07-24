@@ -1,0 +1,165 @@
+shootY:-2
+size: 3
+category: turret
+research: {
+    parent: bayonet
+}
+requirements: [
+    dense-alloy/200
+    creostone/125
+    titanium/100
+    graphite/125
+]
+health: 1000
+reload: 240
+rotateSpeed: 2
+recoil: 6
+shake: 3
+range: 380
+shootSound: artillery
+ammoPerShot: 8
+targetGround: false
+targetAir: true
+ammoTypes: {
+    pyratite: {
+        type: MissileBulletType
+        width: 14
+        height: 26
+        damage: 120
+        splashDamage: 33
+        splashDamageRadius: 20
+        collidesGround: false
+        speed: 5
+        shrinkY: 0.5
+        lifetime: 76
+        homingPower: 0.004
+        homingRange: 90
+        sprite: missile-large
+        makeFire: true
+        status: burning
+        statusDuration: 120
+        hitEffect: massiveExplosion
+        despawnEffect: massiveExplosion
+        trailColor: f68021
+        trailWidth: 1
+        trailLength: 16
+        backColor: f68021
+        frontColor: f8ad42
+        fragBullets: 12
+        fragRandomSpread: 360
+        fragVelocityMin: 0.4
+        fragVelocityMax: 1
+        fragLifeMin: 0.6
+        fragLifeMax: 1.2
+        fragBullet: {
+            width: 6
+            height: 6
+            speed: 5
+            homingPower: 0.002
+            homingRange: 40
+            lifetime: 35
+            damage: 20
+            splashDamage: 10
+            splashDamageRadius: 15
+            hitEffect: blastExplosion
+            despawnEffect: blastExplosion
+            collidesGround: false
+            backColor: f68021
+            frontColor: f8ad42
+            status: burning
+        }
+    }
+    blast-compound: {
+        type: MissileBulletType
+        reloadMultiplier: 0.7
+        width: 14
+        height: 22
+        damage: 80
+        splashDamage: 83
+        splashDamageRadius: 50
+        collidesGround: false
+        ammoMultiplier: 4
+        speed: 5
+        drag:0.001
+        shrinkY: 0.5
+        lifetime: 76
+        homingPower: 0.03
+        homingRange: 120
+        sprite: missile-large
+        status: blasted
+        statusDuration: 30
+        hitEffect: massiveExplosion
+        despawnEffect: massiveExplosion
+        backColor: e58956
+        trailColor: e58956
+        trailWidth: 2
+        trailLength: 8
+        frontColor: ffd2ae
+        fragBullets: 8
+        fragRandomSpread: 270
+        fragVelocityMin: 0.8
+        fragVelocityMax: 1
+        fragLifeMin: 0.4
+        fragLifeMax: 4
+        fragBullet: {
+            width: 8
+            height: 8
+            speed: 4
+            drag:0.01
+            homingPower: 0.006
+            homingRange: 80
+            lifetime: 45
+            damage: 5
+            splashDamage: 50
+            splashDamageRadius: 25
+            hitEffect: blastExplosion
+            despawnEffect: blastExplosion
+            collidesGround: false
+            backColor: e58956
+            frontColor: ffd2ae
+        }
+    }
+    creostone: {
+        type: MissileBulletType
+        reloadMultiplier: 2.5
+        width: 9
+        height: 11
+        damage: 30
+        splashDamage: 15
+        splashDamageRadius: 35
+        collidesGround: false
+        ammoMultiplier: 8
+        speed: 10
+        shrinkY: 0.0
+        lifetime: 38
+        homingPower: 0.2
+        homingRange: 200
+        sprite: missile-large
+        status: super-melting
+        statusDuration: 20
+        hitEffect: massiveExplosion
+        despawnEffect: massiveExplosion
+        backColor: e58956
+        trailColor: e58956
+        frontColor: ffd2ae
+        fragBullets: 2
+        fragRandomSpread: 70
+        fragVelocityMin: 0.4
+        fragVelocityMax: 1
+        fragLifeMin: 0.4
+        fragLifeMax: 1
+        fragBullet: {
+            width: 4
+            height: 4
+            speed: 16
+            lifetime: 12.5
+            damage: 16
+            hitEffect: blastExplosion
+            despawnEffect: blastExplosion
+            collidesGround: false
+            backColor: e58956
+            frontColor: ffd2ae
+            status: super-melting
+        }
+    }
+}

@@ -1,0 +1,9 @@
+requirements: [
+    carved-alloy/24
+]
+armor: 37
+buildCostMultiplier: 4
+health: 2200
+size: 2
+absorbLasers: true
+category: defense

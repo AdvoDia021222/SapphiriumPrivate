@@ -1,0 +1,76 @@
+reload: 60
+recoil: 4
+shootCone: 45
+inaccuracy: 0
+shake: 3
+recoilTime: 30
+range: 200
+shootSound: shootBig
+health: 440
+category: turret
+size: 2
+requirements: [
+    dense-alloy/140
+    titanium/70
+    graphite/80
+]
+research: {
+    parent: salvo
+    objectives: [
+        {
+            type: SectorComplete
+            preset: greyland
+        }
+    ]
+}
+ammoTypes: {
+    lead: {
+        type: ShrapnelBulletType
+        length: 76
+        damage: 42
+        reloadMultiplier: 1.15
+        width: 4
+        serrations: 2
+        maxRange: 32
+        lifetime: 20
+        smokeEffect: none
+        ammoMultiplier: 2
+        lightColor: ad9bd4
+        status: weakened
+        statusDuration: 65
+        shootEffect: {
+            type: ParticleEffect
+            particles: 6
+            length: 38
+            cone:20
+            sizeFrom: 1
+            sizeTo: 3
+            lifetime: 32
+            colorFrom: ffffff
+            colorTo: ffffff00
+        }
+    }
+    diamond: {
+        type: ShrapnelBulletType
+        length: 96
+        damage: 44
+        width: 12
+        serrations: 5
+        maxRange: 38
+        lifetime: 20
+        smokeEffect: none
+        ammoMultiplier: 3
+        lightColor: ffffff
+        shootEffect: {
+            type: ParticleEffect
+            particles: 6
+            length: 26
+            sizeFrom: 1
+            cone:32
+            sizeTo: 4
+            lifetime: 32
+            colorFrom: ffffff
+            colorTo: ffffff00
+        }
+    }
+}

@@ -1,0 +1,12 @@
+health: 540
+requirements: [
+    dense-alloy/3
+    stone/4
+]
+envDisabled: 16
+category: distribution
+research: {
+    parent: router
+    objectives: [strong-conveyor]
+}
+placeableLiquid: true

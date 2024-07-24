@@ -1,0 +1,30 @@
+requirements: [
+    silicon/160
+    oxide/60
+    amethyst/160
+    thorium/100
+]
+category: production
+consumes: {
+    power: 1.3
+    liquids: [
+        {
+            liquid: argon
+            amount: 0.017
+        }
+        {
+            liquid: nitrogen
+            amount: 0.08
+            optional: true
+            booster: true
+        }
+    ]
+}
+drillTime: 85
+tier: 7
+size: 3
+range: 7
+fogRadius: 5
+laserWidth: 0.75
+itemCapacity: 25
+buildVisibility: debugOnly

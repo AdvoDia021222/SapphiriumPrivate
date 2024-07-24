@@ -1,0 +1,11 @@
+requirements: [
+    topaz/24
+]
+category: liquid
+range: 5
+arrowSpacing: 6
+hasPower: false
+squareSprite: false
+fadeIn: false
+moveArrows: false
+health: 94

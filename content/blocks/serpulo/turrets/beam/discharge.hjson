@@ -1,0 +1,60 @@
+scaledHealth: 300
+size: 3
+category: turret
+research: {
+    parent: shock
+}
+requirements: [
+    dense-alloy/180
+    titanium/120
+    silicon/80
+    plastanium/80
+]
+range: 200
+shootType: {
+    type: LightningBulletType
+    damage: 32
+    lightningLength: 21
+    lightningLengthRand: 7
+    pierceArmor: true
+    lightningColor: f3e979
+    lightningType: {
+        width: 9
+        height: 9
+        speed: 0
+        damage: 9
+        hitEffect: none
+        despawnEffect: none
+        lifetime: 1
+        backColor: f3e979
+        frontColor: ffffff
+    }
+}
+reload: 460
+shoot: {
+    type: ShootMulti
+    source: {
+        type: ShootAlternate
+        shots: 12
+        barrels: 3
+    }
+    dest: [
+        {
+            type: ShootSpread
+            shots: 5
+            spread: 8
+            randomSpread: 10
+            shotDelay: 20
+        }
+    ]
+}
+
+shootCone: 60
+rotateSpeed: 7
+consumes: {
+    power: 8
+    coolant: {}
+}
+heatColor: FF8900
+recoil: 3
+shootSound: spark

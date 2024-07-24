@@ -1,0 +1,102 @@
+health: 520
+armor: 3
+speed: 0.6
+hitSize: 8
+weapons: [
+    {
+        name: hound-weapon
+        x: 4
+        y: 0
+        reload: 70
+        top: false
+        ejectEffect: casing1
+        bullet: {
+            width: 8
+            height: 10
+            trailWidth: 2
+            trailLength: 5
+            damage: 44
+            buildingDamageMultiplier: 2
+            shootEffect: shootBigColor
+            smokeEffect: shootBigSmoke
+            backColor: ffe18f
+            trailColor: ffe18f
+            hitColor: ffe18f
+            frontColor: ffffff
+            despawnEffect: [
+                {
+                    type: WaveEffect
+                    sizeTo: 8
+                    strokeFrom: 1
+                    lifetime: 24
+                    colorFrom: ffe18f
+                    colorTo: ffe18f
+                }
+                {
+                    type: ParticleEffect
+                    particles: 1
+                    cone: 360
+                    length: 0
+                    sizeFrom: 2
+                    sizeTo: 0
+                    lifetime: 30
+                    colorFrom: ffe18f
+                    colorTo: 574F00
+                    region: sapphirium-rhombus
+                }
+                {
+                    startDelay:12
+                    type: ParticleEffect
+                    particles: 1
+                    cone: 360
+                    length: 0
+                    sizeFrom: 3
+                    sizeTo: 0
+                    lifetime: 15
+                    colorFrom: ffffff
+                    colorTo: EBD700
+                    region: sapphirium-rhombus
+                }
+            ]
+            hitEffect: [
+                {
+                    type: WaveEffect
+                    sizeTo: 6
+                    strokeFrom: 1
+                    lifetime: 30
+                    colorFrom: ffe18f
+                    colorTo: ffe18f
+                }
+                {
+                    type: ParticleEffect
+                    particles: 1
+                    cone: 360
+                    length: 0
+                    sizeFrom: 4
+                    sizeTo: 0
+                    lifetime: 60
+                    colorFrom: ffe18f
+                    colorTo: ffe18f
+                    region: sapphirium-rhombus
+                }
+                {
+                    startDelay:25
+                    type: ParticleEffect
+                    particles: 1
+                    cone: 360
+                    length: 0
+                    sizeFrom: 3
+                    sizeTo: 0
+                    lifetime: 30
+                    colorFrom: ffffff
+                    colorTo: ffffff
+                    region: sapphirium-rhombus
+                }
+            ]
+            status: slow
+            statusDuration: 90
+            speed: 4
+            lifetime: 40
+        }
+    }
+]

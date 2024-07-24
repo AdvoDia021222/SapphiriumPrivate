@@ -1,0 +1,16 @@
+category: units
+group: units
+health: 400
+unitsSpawned: 1
+droneType: amplifying-drone
+size: 3
+consumes: {
+    power: 6.5
+}
+requirements: [
+    thorium/125
+    silicon/100
+    plastanium/100
+    emerald/80
+]
+research: repair-turret
